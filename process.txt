@@ -1,0 +1,16 @@
+process in the VScode:
+Install Required Libraries:
+pip install opencv-python opencv-python-headless numpy argparse
+----------------------------------------------------------------
+Prepare the Required Files:
+Ensure you have:
+An input image (e.g., image.jpg)
+YOLO configuration file (e.g., yolov3.cfg)
+YOLO weights file (e.g., yolov3.weights)
+A text file containing class names (e.g., aaa.names)
+----------------------------------------------------------------
+Save the corrected code in a Python script file named object_detection.py.
+---------------------------------------------------------------------------
+Open the terminal:
+python object_detection.py -i path/to/your/image.jpg -c path/to/yolov3.cfg -w path/to/yolov3.weights -cl path/to/aaa.names
+Replace path/to/your/image.jpg, path/to/yolov3.cfg, path/to/yolov3.weights, and path/to/coco.names with the actual paths to your files.
